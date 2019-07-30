@@ -1,4 +1,7 @@
 {
+  "scripts":{
+    "compile:sass": "node-sass sass/main.scss Natours/starter/css/style.css -w"
+  },
   "dependencies": {
     "node-sass": "^4.12.0"
   }
